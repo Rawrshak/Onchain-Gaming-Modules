@@ -1,0 +1,14 @@
+# folders
+node_modules
+build
+
+# hardhat folders
+cache
+artifacts
+typechain
+
+# ignore .env files
+.env
+
+# yarn
+yarn-error.log

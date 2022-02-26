@@ -1,0 +1,43 @@
+{
+  "name": "@rawrshak/rawr-gaming-modules",
+  "version": "1.0.0",
+  "description": "This project will contain the implementation of the Gaming Modules smart contracts",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rawrshak/Onchain-Gaming-Modules.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "",
+  "scripts": {
+    "server": "npx hardhat node",
+    "compile": "npx hardhat compile",
+    "clean": "npx hardhat clean",
+    "size": "npx hardhat size-contracts",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.0",
+    "@openzeppelin/hardhat-upgrades": "^1.10.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@typechain/ethers-v5": "^7.2.0",
+    "@typechain/hardhat": "^2.3.1",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.7",
+    "hardhat": "^2.6.6",
+    "hardhat-contract-sizer": "^2.5.0",
+    "typechain": "^5.2.0",
+    "web3": "^1.5.3"
+  },
+  "dependencies": {
+    "@rawrshak/rawr-content": "^1.0.0",
+    "bn.js": "^5.2.0"
+  }
+}
